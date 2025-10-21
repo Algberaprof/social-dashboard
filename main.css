@@ -1,0 +1,181 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.app {
+    width: 95%;
+    margin: auto;
+}
+.hdb {
+    text-align: center;
+    font-size: 45px;
+    color: hsl(300, 43%, 22%);
+    margin: auto;
+}
+.cnt {
+text-align: center;
+font-size: 15px;
+color: hsl(303, 10%, 53%);
+}
+.container1 {
+    border: 1px solid hsl(300, 24%, 96%);
+    border-radius: 10px;
+    background: hsl(300, 24%, 96%);
+    color: hsl(300, 43%, 22%);
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.container2 {
+    border: 1px solid hsl(300, 24%, 96%);
+    border-radius: 10px;
+    background: hsl(300, 24%, 96%);
+    color: hsl(300, 43%, 22%);
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.container3 {
+    border: 1px solid hsl(300, 24%, 96%);
+    border-radius: 10px;
+    background: hsl(300, 24%, 96%);
+    color: hsl(300, 43%, 22%);
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.allcnt {
+    
+}
+img {
+    border-radius: 100px;
+    margin: 8px;
+}
+.imgf {
+    width: 60%;
+    margin: 10px auto 0 auto;
+}
+.allcl {
+    margin-top: 50px;
+}
+.cl1 {
+    border: 1px solid  hsl(300, 43%, 22%);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background:  hsl(300, 43%, 22%);
+    color:  hsl(0, 0%, 100%);
+}
+.cl2 {
+    border: 1px solid  hsl(300, 43%, 22%);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background:  hsl(300, 43%, 22%);
+    color:  hsl(0, 0%, 100%);
+}
+.cl3 {
+    border: 1px solid  hsl(300, 43%, 22%);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background:  hsl(300, 43%, 22%);
+    color:  hsl(0, 0%, 100%);
+}
+.c1 {
+    display: flex;
+    gap: 20px;
+    
+}
+.c2 {
+    display: flex;
+    gap: 20px;
+}
+.c3 {
+    display: flex;
+    gap: 20px;
+}
+.c {
+    font-size: 15px;
+    color: hsl(333, 80%, 67%);
+}
+.p1 {
+    margin: 15px;
+    margin-left: 0;
+}
+.pcnt {
+    width: 55%;
+    font-size: 15px;
+    margin-left: 37px;
+}
+.imh {
+    font-size: 20px;
+}
+@media screen and (min-width: 1024px) {
+    .app {
+        width: 95%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .wed {
+        display: flex;
+        justify-content: space-between;
+    }
+    .hd1 {
+        width: 30%;
+    }
+    .hdb {
+        text-align: left;
+    }
+    .cnt {
+       text-align: left;
+    }
+    .allcnt {
+        width: 55%;
+        margin-right: 70px;
+        margin-top: 23px;
+    }
+    .imgf {
+       margin-top: 10px;
+       
+    }
+    .cntm {
+        margin: auto;
+    }
+    .container1 {
+        padding: 15px;
+        display: flex;
+        text-align: center;
+        margin-right: 100px;
+        margin-bottom: 15px;
+    }
+    .container2 {
+        padding: 15px;
+        display: flex;
+        text-align: center;
+        margin-right: 50px;
+        margin-left: 40px;
+        margin-bottom: 15px;
+    }
+    .container3 {
+        padding: 15px;
+        display: flex;
+        text-align: center;
+        margin-right: 25px;
+        margin-left: 80px;
+        margin-bottom: 15px;
+    }
+    .allcl {
+        display: flex;
+    }
+    .cl1 {
+        margin-right: 20px;
+        margin-bottom: 40px;
+    }
+    .cl2 {
+        margin-right: 20px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .cl3 {
+        margin-right: 20px;
+        margin-top: 80px;
+        margin-bottom: 0px;
+    }
+}
